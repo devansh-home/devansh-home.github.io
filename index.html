@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UniVerse</title>
+        <link rel="stylesheet" type="text/css" href="universe.css">
+  </head>
+  <body>
+    <h1>UniVerse</h1>
+    
+    <!-- Login Section -->
+    <section id="login">
+      <h2>Login</h2>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+      </form>
+    </section>
+    
+    <!-- File Upload Section -->
+    <section id="file-upload">
+      <h2>File Upload</h2>
+      <form method="post" enctype="multipart/form-data">
+        <label for="file">Choose a file to upload:</label>
+        <input type="file" id="file" name="file"><br><br>
+        <input type="submit" value="Upload">
+      </form>
+    </section>
+    
+    <!-- Chat Section -->
+    <section id="chat">
+      <h2>Chat</h2>
+      <div id="chat-messages"></div>
+      <form>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message"><br><br>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    
+    <!-- Misc Section -->
+    <section id="misc">
+      <h2>Misc</h2>
+      <form method="post" enctype="multipart/form-data">
+        <label for="file">Choose a video or image to upload:</label>
+        <input type="file" id="file" name="file"><br><br>
+        <input type="submit" value="Upload">
+      </form>
+    </section>
+    
+  </body>
+</html>

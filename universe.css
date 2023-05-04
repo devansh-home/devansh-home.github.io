@@ -1,0 +1,91 @@
+/* Define the main color scheme */
+:root {
+  --primary-color: #0033a0;
+  --secondary-color: #b1b1b1;
+  --text-color: #333;
+}
+
+/* Set the overall font and background */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Define the style for the main header */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+}
+
+/* Define the style for the login form */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid var(--secondary-color);
+}
+
+/* Define the style for the chat section */
+.chat {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid var(--secondary-color);
+  height: 500px;
+  overflow-y: auto;
+}
+
+/* Define the style for the document upload section */
+.document-upload {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid var(--secondary-color);
+}
+
+/* Define the style for the footer */
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* Define the style for links */
+a {
+  color: var(--primary-color);
+}
+
+/* Define the style for buttons */
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Define the style for headings */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-color);
+}
+
+/* Define the style for text inputs */
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid var(--secondary-color);
+}
+
+/* Define the style for form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Define the style for error messages */
+.error {
+  color: red;
+  margin-top: 5px;
+}
